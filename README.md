@@ -1,4 +1,4 @@
 # Projetos
  Repositório de testes
 
- Verificando
+ Verificando. Tudo ok!
