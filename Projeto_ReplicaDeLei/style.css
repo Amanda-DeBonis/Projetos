@@ -1,2 +1,138 @@
 @charset "UTF-8";
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 8px;
+    font-size: 13px;
+    height: 2677px;
+}
+
+table{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.imagem{
+    display: block;
+    margin: auto;
+
+}
+
+td div{
+    width: 90%;
+}
+
+header{
+    min-height: 85px;
+}
+
+.headers{
+    color: #808000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+h1{
+    font-size: 23px;
+}
+
+h2{
+    font-size: 19px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+div > nav{
+    text-align: center;
+    margin: 16px;
+    font: normal bold 13px Arial, Helvetica, sans-serif;
+}
+
+div > nav > a:visited{
+    color: darkblue;
+}
+
+aside{
+    position: relative;
+    padding: 7px 5px 0px 0px;
+    line-height: 31.5px;
+    display: inline-block;
+    left: 0px;
+    top: -17px;
+}
+
+article{
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    text-align: justify;
+    top:185px;
+    left: 52%;
+    color: #800000;  
+}
+
+main{
+    text-indent: 30px;
+}
+
+main > p, ol, ul, li {
+    margin: 16px 0px;
+    line-height: 15.54px;
+}
+.art{
+    list-style-type: 'Art.\0020';
+    list-style-position: inside;
+}
+
+.paragrafo{
+    list-style-type: '§\0020';
+    list-style-position: inside;
+}
+
+.riscado1, .riscado2{
+    text-decoration:line-through;
+}
+
+.riscado2{
+    padding-right: 10px;
+    word-spacing: 0.16em;
+    text-decoration-thickness: 1.7px;
+    
+}
+
+.recuo{
+    margin: 0px 80px;
+    text-indent: 0px;
+}
+
+.sembordacima{
+    margin-top: -9px;
+    margin-bottom: -1px;
+}
+
+footer{
+    color: #FF0000;
+    margin-top: 16px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+footer > a{
+    text-decoration:underline;
+    text-decoration-thickness: 1.7px;
+    color: #FF0000;
+}
+
+footer > a:hover{
+    color: #FF0000;
+}
