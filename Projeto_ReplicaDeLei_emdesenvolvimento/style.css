@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -18,9 +17,8 @@ body{
     margin: auto;
 }
 
-.tab2{
-    width: 100%;
-   
+.tab1 td{
+    text-align: center;
 }
 
 .imagem{
@@ -28,16 +26,7 @@ body{
 }
 
 .headers{
-    width: 86%;
-}
-.lei10520{
-    text-align: center;
-    font: normal bold 13px Arial, Helvetica, sans-serif;
-    color: blue;
-    word-spacing: 0.6px;
-    margin: 16px 0;
-    text-decoration: underline;
-    text-decoration-thickness: 1.35px;    
+    width: 86%;    
 }
 
 h1{
@@ -55,8 +44,18 @@ h3{
     color: #808000;
 }
 
-.tab1 td{
+.lei10520{
     text-align: center;
+    font: normal bold 13px Arial, Helvetica, sans-serif;
+    color: blue;
+    word-spacing: 0.6px;
+    margin: 16px 0;
+    text-decoration: underline;
+    text-decoration-thickness: 1.35px;    
+}
+
+.tab2{
+    width: 100%;   
 }
 
 .tab2 td{
@@ -64,14 +63,14 @@ h3{
     border: none;    
 }
 
+.links{
+   line-height: 30px;
+}
+
 .institui{
     font: normal normal 13px Arial, Helvetica, sans-serif;
     color: #800000;
     text-align: justify;   
-}
-
-.links{
-   line-height: 30px;
 }
 
 main{
@@ -83,6 +82,7 @@ main > p, ol, ul, li {
     margin: 16px 0px;
     line-height: 15.54px;
 }
+
 .art{
     list-style-type: 'Art.\0020';
     list-style-position: inside;
