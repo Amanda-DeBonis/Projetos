@@ -13,8 +13,70 @@ body{
     height: 2677px;
 }
 
+.tab1{
+    width: 70%;
+    margin: auto;
+}
+
+.tab2{
+    width: 100%;
+   
+}
+
+.imagem{
+    width: 14%;
+}
+
+.headers{
+    width: 86%;
+}
+.lei10520{
+    text-align: center;
+    font: normal bold 13px Arial, Helvetica, sans-serif;
+    color: blue;
+    word-spacing: 0.6px;
+    margin: 16px 0;
+    text-decoration: underline;
+    text-decoration-thickness: 1.35px;    
+}
+
+h1{
+    font-size: 23px;
+    color: #808000;
+}
+
+h2{
+    font-size: 19px;
+    color: #808000;
+}
+
+h3{
+    font-size: 16px;
+    color: #808000;
+}
+
+.tab1 td{
+    text-align: center;
+}
+
+.tab2 td{
+    width: 51.900%;
+    border: none;    
+}
+
+.institui{
+    font: normal normal 13px Arial, Helvetica, sans-serif;
+    color: #800000;
+    text-align: justify;   
+}
+
+.links{
+   line-height: 30px;
+}
+
 main{
     text-indent: 30px;
+    text-align: justify;
 }
 
 main > p, ol, ul, li {
@@ -37,19 +99,13 @@ main > p, ol, ul, li {
 
 .riscado2{
     padding-right: 10px;
-    word-spacing: 0.16em;
-    text-decoration-thickness: 1.7px;
-    
+    font-size: 13px;
+    text-decoration-thickness: 1.7px;    
 }
 
 .recuo{
     margin: 0px 80px;
     text-indent: 0px;
-}
-
-.sembordacima{
-    margin-top: -9px;
-    margin-bottom: -1px;
 }
 
 footer{
